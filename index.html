@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>Marmetho</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    
+  </head>
+  <body onload="calculate()">
+    
+    <div class = "card-wrapper">
+      <div class = "card">
+        <!-- card left -->
+        <div class = "product-imgs">
+         
+            <div class = "img-showcase">
+              <img src = "https://s3-alpha-sig.figma.com/img/d636/7d6d/f34ce14e7187edeeb026d73413e4a29c?Expires=1714348800&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4&Signature=pevkykb1BtmxffmPmXSPCM0bOk0JCmgEaRRcHlcJjm4q8P8Bd-ArvRMNuyj06dQnodNx59hkJ8oTv8bb-cCAy8zYe9ywUbVl4dm8aUKwc1t1S2obyyTpGaXhyhdZhBw1AbvX9WlMxizr8BODP-a0UTQeqX9973rKWyvS1doyUT14mvIInR4oQQu9aSa1KIOm8ictjYwLQcPV9S8zd5ZrDCf9rIX60g4jObuAOAVOYNKy3mJanyACwPVQFrvSo0ZmOvN6FJDbR~smIY1R2XhSzKySiaX47YP0ZyIAf8prioxp-1LAQSqa0zeV69BDek0L1SO8MuDhz8TxEC20ibbEwQ__"  width="400px" height="500px" id="mypick" >
+            </div>
+          
+          <div class = "img-select">
+            <div class = "img-item">
+                <img src = "https://s3-alpha-sig.figma.com/img/2b85/4ec0/815f49c8ce3ddd231e2da63ce0596dc4?Expires=1714348800&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4&Signature=Fni8JNReIWFdjr-vT77lVDVeRNVvhfsBdiozjxkOdlWyycW4LLd7WVy3YigQw1HJbf0u6DUaH8ze5TbhuQIiFjbPpUBAx37~5nBLWcS4LE5eBPP1jNwipnRjIa0easHVTYAaR0aitYZv6Mbmz2xdyoxUZNLT6dUB~IJPRvTicYxw8xhoMcs3hVnKQdBYcXhnDvRs~bl6gDP0ZYwObTNgHPcn5CRtBuz-JNXQGFJ0T8Y~colrbSq4E8bpzdysW9jdQMQdkYRKYtOK3LByzYe6M9zlEJRPMeqwz-lEr5pAnu2oGwIQUmWn3hC3usA5UyvkhRpo-8lgAboIwSImazVHNw__"  onmouseenter="printphoto('img-1')"  id="img-1" onclick="fixphoto('img-1')">
+            </div>
+
+            <div class = "img-item">
+                <img src = "https://s3-alpha-sig.figma.com/img/7f07/20f0/38539658df252c621f52c64231e8986a?Expires=1714348800&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4&Signature=i6vOtTlpsonhpygoxEzTSHwyFPFtlQ73t9Wavik5NTVjsSfC7wj9ALb6CWwZwyGoLQCGq~yKBsh2p-5dHUfPiomfhcq6w84~m-clVchakakNDK03nKUIz~U3cGNjiUq8EOgOTD-jbUjFLYQ0xskvuKp1SFGpfHkmomNQNGtxpQerneTTqM81F98G1ifq~NQtmFnQlWhOvvinbYZObZpXgqOESkjsL18ltZxkRsXkdBFUYwYn-43LPzkxOVfQyAQ49NWPfFsNDILAGV1vocmosI2giFwvBZuVShGV-95X0M02lphnyZ-2n63UgSZaVn0pw5IZTdGkIcjIdeh3-WnjTA__"  onmouseenter="printphoto('img-2')"  id="img-2"  onclick="fixphoto('img-2')">
+            </div>
+
+            <div class = "img-item">
+                <img src = "https://s3-alpha-sig.figma.com/img/8a12/5fd1/8ad1df2ca3d3367baa54e79cf0caeff1?Expires=1714348800&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4&Signature=jxSShqASx76nwC~fhgrf79aSg4wNj5m-Am175jqDplzfZykkZFjlP61-orhWvJrhbR66Q2B5GoIgokZJ-XfdjMcOIL3bjo57CR3vRZef3b78emkrvlNVO3P4S-I82N5iby~qlEJh0VNVmVUo~ceQd0zGGLsbdZ6mRnK6e1xbKcrdrIuP4b~lTIWRx66PgMXNRBGAaL8EMbnVT3r0Eld2AdvH0Zkc5xfVL-5cYjj8FI-ClY-KrlS-5bekKquBFWg3ogzhTsJG-fMmMgd8W5rCE1kMHxVFSxUkiYqLPohKaqKGigIM2e4R3T2nXX6d-0h9NT-6EswEaXH7Tubv~CGMgw__"  onmouseenter="printphoto('img-3')"  id="img-3"  onclick="fixphoto('img-3')">
+            </div>
+
+            <div class = "img-item">
+                <img src = "https://s3-alpha-sig.figma.com/img/2b85/4ec0/815f49c8ce3ddd231e2da63ce0596dc4?Expires=1714348800&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4&Signature=Fni8JNReIWFdjr-vT77lVDVeRNVvhfsBdiozjxkOdlWyycW4LLd7WVy3YigQw1HJbf0u6DUaH8ze5TbhuQIiFjbPpUBAx37~5nBLWcS4LE5eBPP1jNwipnRjIa0easHVTYAaR0aitYZv6Mbmz2xdyoxUZNLT6dUB~IJPRvTicYxw8xhoMcs3hVnKQdBYcXhnDvRs~bl6gDP0ZYwObTNgHPcn5CRtBuz-JNXQGFJ0T8Y~colrbSq4E8bpzdysW9jdQMQdkYRKYtOK3LByzYe6M9zlEJRPMeqwz-lEr5pAnu2oGwIQUmWn3hC3usA5UyvkhRpo-8lgAboIwSImazVHNw__"  onmouseenter="printphoto('img-4')"  id="img-4"  onclick="fixphoto('img-4')">
+            </div>
+          </div>
+        </div>
+        <!-- card right -->
+        <div class = "product-content">
+          <div>
+              <h3 style="color: rgb(171, 171, 171)">Marmeto</h3>
+              <h2>Embrace sideboard</h2>
+              <hr/>
+          </div>
+         
+          <div class = "product-price">
+            <p> <span style="color: #3A4980;"><b>$12999.00</b></span>  <span style="color:red" id="discount">  </span></p>
+            <p class = "old-price"> <span>$19999.00</span></p>
+            <hr/>
+          </div>
+
+          <div class = "product-color">
+            <h3 style="color: rgb(171, 171, 171)">Choose a color</h3>
+            <p class = "color-panel">
+             <span> 
+              <input type="radio" id="color-1" name="color" value="Yellow" class="radio" checked /> 
+              <label class=" label-1"  id=" label-1" for="color-1" > </label>
+              </span>
+
+               <span>
+                <input type="radio" id="color-2" name="color" value="Green" class="radio"  /> 
+                <label class=" label-2"  for="color-2" > </label>
+              </span>
+
+               <span>
+                <input type="radio" id="color-3" name="color" value="Blue" class="radio"  /> 
+                <label class=" label-3" for="color-3" > </label>
+              </span>
+
+              <span>
+                <input type="radio" id="color-4" name="color" value="Pink" class="radio"  /> 
+                <label class=" label-4"  for="color-4"> </label>
+              </span>
+
+              </p>
+            <hr/>
+          </div>
+
+          <div class = "product-size">
+            <h3 style="color: rgb(171, 171, 171)">Choose a size</h3>
+            <div class = "size-panel">
+               <span ><input type="radio" name="size" value="Small"checked/> small</span>
+               <span><input type="radio" name="size" value="Medium"/> Medium</span>
+               <span><input type="radio" name="size" value="Large"/> Large</span>
+               <span><input type="radio" name="size" value="Extra Large"/> Extra Large</span>
+               <span><input type="radio" name="size" value="XXL"/> XXL</span>
+            </div>
+       
+         </div>
+              <div class = "button">
+                <span>
+                     <form>
+                     <div class="value-button" id="decrease" onclick="decreaseValue()" value="Decrease Value"><b>-</b></div>
+                     <input type="number" id="number" value="0" />
+                     <div class="value-button" id="increase" onclick="increaseValue()" value="Increase Value"><b>+</b></div>
+               </form>
+             </span>
+                <span><button type="submit" style="margin-top: 30px;" onclick="save()">    <i class="fa-solid fa-plus" style="color: white;"></i> Add to Cart</button></span>
+                
+             </div>
+             <p id="cart" style=" background-color:#E7F8B7 ; color: black"></p>
+            <hr/>
+
+            <div class = "product-detail">
+           
+              <p>The Embrace Sideboard is a stylish wear. With a top cloth designed to provide superior protection and look great, this storage solution is both functional and attractive. It fits seamlessly into any home decor, with clean lines and a timeless look. Crafted from premium materials for a combination of style, durability, and reliability.</p>
+              
+            </div>
+            </div>
+
+        </div>
+      </div>
+    </div>
+
+    
+    <script src="script.js"></script>
+  </body>
+</html>
